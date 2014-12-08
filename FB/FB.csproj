@@ -37,6 +37,71 @@
   <ItemGroup>
     <Reference Include="System" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="3Sum-Test.cs" />
+    <Compile Include="3Sum.cs" />
+    <Compile Include="AddBinary-Test.cs" />
+    <Compile Include="AddBinary.cs" />
+    <Compile Include="BestTimetoBuyandSellStock-Test.cs" />
+    <Compile Include="BestTimetoBuyandSellStock.cs" />
+    <Compile Include="BestTimetoBuyandSellStockII-Test.cs" />
+    <Compile Include="BestTimetoBuyandSellStockII.cs" />
+    <Compile Include="BestTimetoBuyandSellStockIII-Test.cs" />
+    <Compile Include="BestTimetoBuyandSellStockIII.cs" />
+    <Compile Include="BinaryTreePreorderTraversal-Test.cs" />
+    <Compile Include="BinaryTreePreorderTraversal.cs" />
+    <Compile Include="BSTIterator-Test.cs" />
+    <Compile Include="BSTIterator.cs" />
+    <Compile Include="CloneGraph-Test.cs" />
+    <Compile Include="CloneGraph.cs" />
+    <Compile Include="CommonAncestor-Test.cs" />
+    <Compile Include="CommonAncestor.cs" />
+    <Compile Include="ContiguousSubSequenceSum-Test.cs" />
+    <Compile Include="ContiguousSubSequenceSum.cs" />
+    <Compile Include="CountandSay-Test.cs" />
+    <Compile Include="CountandSay.cs" />
+    <Compile Include="DecodeWays-Test.cs" />
+    <Compile Include="DecodeWays.cs" />
+    <Compile Include="JobCost-Test.cs" />
+    <Compile Include="JobCost.cs" />
+    <Compile Include="LongestPalindromicSubstring-Test.cs" />
+    <Compile Include="LongestPalindromicSubstring.cs" />
+    <Compile Include="Multiplication-Test.cs" />
+    <Compile Include="Multiplication.cs" />
+    <Compile Include="ReadNbyRead4-Test.cs" />
+    <Compile Include="ReadNbyRead4.cs" />
+    <Compile Include="RemoveAandB-Test.cs" />
+    <Compile Include="RemoveAandB.cs" />
+    <Compile Include="RemoveNumbers-Test.cs" />
+    <Compile Include="RemoveNumbers.cs" />
+    <Compile Include="ReverseNodesink-Group-Test.cs" />
+    <Compile Include="ReverseNodesink-Group.cs" />
+    <Compile Include="RootToLeafPaths-Test.cs" />
+    <Compile Include="RootToLeafPaths.cs" />
+    <Compile Include="SearchinRotatedSortedArray-Test.cs" />
+    <Compile Include="SearchinRotatedSortedArray.cs" />
+    <Compile Include="SearchinRotatedSortedArrayII-Test.cs" />
+    <Compile Include="SearchinRotatedSortedArrayII.cs" />
+    <Compile Include="SortByString.cs" />
+    <Compile Include="SortByString-Test.cs" />
+    <Compile Include="Sqrt%28x%29-Test.cs" />
+    <Compile Include="Sqrt%28x%29.cs" />
+    <Compile Include="SumRoottoLeafNumbers-Test.cs" />
+    <Compile Include="SumRoottoLeafNumbers.cs" />
+    <Compile Include="SumRoottoLeafNumbersII-Test.cs" />
+    <Compile Include="SumRoottoLeafNumbersII.cs" />
+    <Compile Include="WildcardMatching-Test.cs" />
+    <Compile Include="WildcardMatching.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ACMPrep\ACMPrep.csproj">
+      <Project>{5ec4552e-f125-404b-9842-05a9d5b46249}</Project>
+      <Name>ACMPrep</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Choose>
     <When Condition="('$(VisualStudioVersion)' == '10.0' or '$(VisualStudioVersion)' == '') and '$(TargetFrameworkVersion)' == 'v3.5'">
       <ItemGroup>
@@ -49,9 +114,6 @@
       </ItemGroup>
     </Otherwise>
   </Choose>
-  <ItemGroup>
-    <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>

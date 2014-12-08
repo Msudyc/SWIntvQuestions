@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace AMZN
+namespace ACMPrep
 {
     [TestClass]
-    public partial class String
+    public partial class AMZN
     {
         [TestMethod]
-        public void String_IsMultipleTest1()
+        public void AMZN_IsMultipleTest1()
         {
             Assert.IsTrue(IsMultiple("abcabcabc"));
             Assert.IsFalse(IsMultiple("bcdbcdbcde"));

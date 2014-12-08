@@ -15,7 +15,7 @@ public boolean isMultiple(String s){
  }
  */
 
-namespace AMZN
+namespace ACMPrep
 {
     #region using
     using System;
@@ -23,7 +23,7 @@ namespace AMZN
     using System.Text;
     #endregion
 
-    public partial class String
+    public partial class AMZN
     {
         public static bool IsMultiple(string str)
         {

@@ -52,7 +52,11 @@
   <ItemGroup>
     <Compile Include="IsMultiple.cs" />
     <Compile Include="IsMultiple-Test.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MiceAndHoles-Test.cs" />
+    <Compile Include="MiceAndHoles.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
