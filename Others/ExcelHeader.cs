@@ -20,26 +20,21 @@ namespace OTHR
             if (n < 0)
                 return null;
 
-            char[] map = {'A', 'B', 'C'};
-            List<int> sum = new List<int>();
-            sum.Add(0);
-            int k = 0;
-            while (n >= sum[k])
-            {
-                k++;
-                sum.Add((int)Math.Pow(3, k) + sum[k-1]);
-            }
-
             StringBuilder sb = new StringBuilder();
-            while (k > 0)
+            while (n >= 0)
             {
-                int x = (n - sum[k - 1]) / (int)Math.Pow(3, (k - 1));
-                sb.Append(map[x]);
-                n = n - sum[k-1] - x * (int)Math.Pow(3, (k - 1)) + (k > 1 ? sum[k-2] : 0);
-                k--;
+                sb.Append((char)('A' + n % 3));
+                n = n/3 -1;
             }
 
-            return sb.ToString();
+            return Reverse(sb.ToString());            
+        }
+
+        private static string Reverse(string str)
+        {
+            char[] arr = str.ToCharArray();
+            Array.Reverse(arr);
+            return new string(arr);
         }
     }
 }

@@ -30,5 +30,17 @@ namespace OTHR
         {
             Assert.AreEqual("AAAAA", GetHeader(120));
         }
+
+        [TestMethod]
+        public void OTHR_GetHeaderTest5()
+        {
+            Assert.AreEqual("AAAAC", GetHeader(122));
+        }
+
+        [TestMethod]
+        public void OTHR_GetHeaderTest6()
+        {
+            Assert.AreEqual("AAABC", GetHeader(125));
+        }
     }
 }
