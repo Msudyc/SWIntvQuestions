@@ -74,14 +74,14 @@
     <Compile Include="Sort\QuickSort.cs" />
     <Compile Include="Sort\SelectionSort-Test.cs" />
     <Compile Include="Sort\SelectionSort.cs" />
-    <Compile Include="StackAndQueue\PascalTriangle-Test.cs" />
-    <Compile Include="StackAndQueue\PascalTriangle.cs" />
-    <Compile Include="StackAndQueue\DecimalToHex-Test.cs" />
-    <Compile Include="StackAndQueue\DecimalToHex.cs" />
-    <Compile Include="StackAndQueue\DecimalToOctal-Test.cs" />
-    <Compile Include="StackAndQueue\DecimalToOctal.cs" />
-    <Compile Include="StackAndQueue\HexToDecimal-Test.cs" />
-    <Compile Include="StackAndQueue\HexToDecimal.cs" />
+    <Compile Include="Stack\PascalTriangle-Test.cs" />
+    <Compile Include="Stack\PascalTriangle.cs" />
+    <Compile Include="Stack\DecimalToHex-Test.cs" />
+    <Compile Include="Stack\DecimalToHex.cs" />
+    <Compile Include="Stack\DecimalToOctal-Test.cs" />
+    <Compile Include="Stack\DecimalToOctal.cs" />
+    <Compile Include="Stack\HexToDecimal-Test.cs" />
+    <Compile Include="Stack\HexToDecimal.cs" />
     <Compile Include="Template-Test.cs" />
     <Compile Include="Template.cs" />
     <Compile Include="Tree\BinaryTreeInorderTraversal-Test.cs" />
@@ -98,15 +98,23 @@
     <Compile Include="Tree\Heap.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="ArrayAndString\" />
+    <Folder Include="Array\" />
+    <Folder Include="Backtracking\" />
     <Folder Include="BasicFunction\" />
     <Folder Include="BFS\" />
     <Folder Include="BigNumber\" />
+    <Folder Include="Bit\" />
     <Folder Include="DFS\" />
     <Folder Include="DivideConquer\" />
     <Folder Include="Graph\" />
-    <Folder Include="MathModel\" />
+    <Folder Include="Heap\" />
+    <Folder Include="LinkedList\" />
+    <Folder Include="Math\" />
     <Folder Include="Properties\" />
+    <Folder Include="Queue\" />
+    <Folder Include="String\" />
+    <Folder Include="Structure\" />
+    <Folder Include="TwoPointers\" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
