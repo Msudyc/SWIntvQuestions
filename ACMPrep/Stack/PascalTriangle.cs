@@ -23,7 +23,7 @@ namespace ACMPrep
     using System.Text;
     #endregion
 
-    public partial class StackAndQueue
+    public partial class StackIntv
     {
         public static List<List<int>> PascalTriangle(int n)
         {

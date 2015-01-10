@@ -4,10 +4,10 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace ACMPrep
 {
-    public partial class Tree
+    public partial class TreeIntv
     {
         [TestMethod]
-        public void Tree_LevelOrderTest1()
+        public void TreeIntv_LevelOrderTest1()
         {
             TreeNode root = new TreeNode(1),
                 l = new TreeNode(2),
@@ -28,7 +28,7 @@ namespace ACMPrep
         }
 
         [TestMethod]
-        public void Tree_LevelOrderTest2()
+        public void TreeIntv_LevelOrderTest2()
         {
             TreeNode root = new TreeNode(1);
             List<List<int>> res = LevelOrder(root);

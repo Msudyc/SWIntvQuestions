@@ -28,7 +28,7 @@ namespace ACMPrep
     using System.Collections.Generic;
     #endregion
 
-    public partial class Tree
+    public partial class TreeIntv
     {
         public static List<List<int>> LevelOrder(TreeNode root)
         {

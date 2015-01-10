@@ -24,7 +24,7 @@ namespace ACMPrep
     using System.Collections.Generic;
     #endregion
 
-    public partial class Tree
+    public partial class TreeIntv
     {
         public static List<int> PreorderTraversal(TreeNode root)
         {

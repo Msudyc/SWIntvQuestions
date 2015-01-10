@@ -4,10 +4,10 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace ACMPrep
 {
-    public partial class StackAndQueue
+    public partial class StackIntv
     {
         [TestMethod]
-        public void StackAndQueue_PascalTriangleTest1()
+        public void StackIntv_PascalTriangleTest1()
         {
             List<List<int>> r = PascalTriangle(3);
             Assert.AreEqual(1, r[0][0]);

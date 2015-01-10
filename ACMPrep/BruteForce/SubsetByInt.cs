@@ -13,7 +13,7 @@ namespace ACMPrep
     using System.Text;
     #endregion
 
-    public partial class DFS
+    public partial class BruteForce
     {
         public static List<List<char>> GetAllSubSets(char[] elements)
         {

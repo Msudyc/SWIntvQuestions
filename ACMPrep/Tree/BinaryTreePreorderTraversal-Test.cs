@@ -4,10 +4,10 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace ACMPrep
 {
-    public partial class Tree
+    public partial class TreeIntv
     {
         [TestMethod]
-        public void Tree_PreorderTraversalTest1()
+        public void TreeIntv_PreorderTraversalTest1()
         {
             TreeNode root = new TreeNode(1),
                 l = new TreeNode(2),
@@ -27,7 +27,7 @@ namespace ACMPrep
         }
 
         [TestMethod]
-        public void Tree_PreorderTraversalTest2()
+        public void TreeIntv_PreorderTraversalTest2()
         {
             TreeNode root = new TreeNode(1),
                 l = new TreeNode(2),

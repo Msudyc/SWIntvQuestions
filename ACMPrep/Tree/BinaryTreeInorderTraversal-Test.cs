@@ -5,10 +5,10 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace ACMPrep
 {
     [TestClass]
-    public partial class Tree
+    public partial class TreeIntv
     {
         [TestMethod]
-        public void Tree_InorderTraversalTest1()
+        public void TreeIntv_InorderTraversalTest1()
         {
             TreeNode root = new TreeNode(1), 
                 r = new TreeNode(2), 
@@ -21,7 +21,7 @@ namespace ACMPrep
         }
 
         [TestMethod]
-        public void Tree_InorderTraversalTest2()
+        public void TreeIntv_InorderTraversalTest2()
         {
             TreeNode root = new TreeNode(1);
             List<int> res = InorderTraversal(root);
@@ -29,7 +29,7 @@ namespace ACMPrep
         }
 
         [TestMethod]
-        public void Tree_InorderTraversalTest3()
+        public void TreeIntv_InorderTraversalTest3()
         {
             TreeNode root = new TreeNode(1), 
                 l = new TreeNode(2), 
@@ -44,7 +44,7 @@ namespace ACMPrep
         }
 
         [TestMethod]
-        public void Tree_InorderTraversalTest4()
+        public void TreeIntv_InorderTraversalTest4()
         {
             TreeNode root = new TreeNode(1), 
                 r = new TreeNode(2);

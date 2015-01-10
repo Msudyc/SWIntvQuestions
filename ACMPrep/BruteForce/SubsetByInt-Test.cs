@@ -5,10 +5,10 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace ACMPrep
 {
     [TestClass]
-    public partial class DFS
+    public partial class BruteForce
     {
         [TestMethod]
-        public void DFS_GetAllSubSetsTest1()
+        public void BruteForce_GetAllSubSetsTest1()
         {
             char[] test = { 'A', 'B', 'C' };
             List<List<char>> result = GetAllSubSets(test);

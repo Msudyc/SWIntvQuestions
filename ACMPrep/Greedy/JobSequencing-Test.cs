@@ -4,7 +4,6 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace ACMPrep
 {
-    [TestClass]
     public partial class Greedy
     {
         [TestMethod]
